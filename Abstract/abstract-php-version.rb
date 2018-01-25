@@ -71,4 +71,15 @@ class AbstractPhpVersion < Formula
                         :sha256 => '913ff2dc0e28535b96f58dfcdc631ce5a14db415f314e9436e1751a53a4afb09',
                       }
   end
+
+  module Php72Defs
+    PHP_SRC_TARBALL = 'http://php.net/get/php-7.2.1.tar.bz2/from/this/mirror'
+    PHP_GITHUB_URL  = 'https://github.com/php/php-src.git'
+    PHP_VERSION     = '7.2.1'
+    PHP_BRANCH      = 'PHP-7.2'
+
+    PHP_CHECKSUM    = {
+                        :sha256 => 'fe06793f268a4dd29cbc5f4ef415f01e786877152b02221ad7d18dbb6864eb79',
+                      }
+  end
 end
